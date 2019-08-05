@@ -1,0 +1,11 @@
+Aug 02, 2019 12:25:23 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+INFO: Remoting server accepts the following protocols: [JNLP4-connect, Ping, Diagnostic-Ping, OperationsCenter2]
+Aug 02, 2019 12:25:28 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver isPortVisible
+WARNING: connect timed out
+Aug 02, 2019 12:25:28 PM hudson.remoting.jnlp.GuiListener$2 run
+SEVERE: http://af1d5dcc1abc211e9ac250a1c72c0156-1164396359.ap-south-1.elb.amazonaws.com/master-a/ provided port:50003 is not reachable
+java.io.IOException: http://af1d5dcc1abc211e9ac250a1c72c0156-1164396359.ap-south-1.elb.amazonaws.com/master-a/ provided port:50003 is not reachable
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver.resolve(JnlpAgentEndpointResolver.java:287)
+	at hudson.remoting.Engine.innerRun(Engine.java:523)
+	at hudson.remoting.Engine.run(Engine.java:474)
+
