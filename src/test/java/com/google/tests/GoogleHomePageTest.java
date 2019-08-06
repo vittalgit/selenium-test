@@ -18,7 +18,7 @@ public class GoogleHomePageTest {
 		//System.setProperty("webdriver.gecko.driver","C:\\geckodriver.exe"); 
 		//FirefoxOptions options = new FirefoxOptions();
 		//options.setBinary("C:\\Program Files\\Mozilla Firefox\\firefox.exe");
-		//driver = new FirefoxDriver();
+		driver = new FirefoxDriver();
 	}
 	
 	@Test
