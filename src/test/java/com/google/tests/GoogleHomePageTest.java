@@ -15,7 +15,7 @@ public class GoogleHomePageTest {
 	@BeforeClass
 	public void testSetUp() {		
 		System.out.println("Selenium Webdriver Script in Firefox browser using Gecko Driver");
-		System.setProperty("webdriver.gecko.driver","/home/selenium/tools/geckodriver.exe"); 
+		System.setProperty("webdriver.gecko.driver","/home/selenium/tools/geckodriver"); 
 		//FirefoxOptions options = new FirefoxOptions();
 		//options.setBinary("C:\\Program Files\\Mozilla Firefox\\firefox.exe");
 		driver = new FirefoxDriver();
