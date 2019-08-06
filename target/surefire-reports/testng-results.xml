@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="MySel20Proj.MySel20Proj.AppTest" duration-ms="0" started-at="2019-08-05T09:26:21Z" finished-at="2019-08-05T09:26:21Z">
+  <suite name="Example test run" duration-ms="10883" started-at="2019-08-06T07:30:22Z" finished-at="2019-08-06T07:30:33Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="0" started-at="2019-08-05T09:26:21Z" finished-at="2019-08-05T09:26:21Z">
-    </test> <!-- Command line test -->
-  </suite> <!-- MySel20Proj.MySel20Proj.AppTest -->
+    <test name="Simple Test" duration-ms="10883" started-at="2019-08-06T07:30:22Z" finished-at="2019-08-06T07:30:33Z">
+      <class name="com.google.tests.GoogleHomePageTest">
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:com.google.tests.GoogleHomePageTest@17f6480]" name="testSetUp" is-config="true" duration-ms="7352" started-at="2019-08-06T07:30:22Z" finished-at="2019-08-06T07:30:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="verifyGooglePageTittle()[pri:0, instance:com.google.tests.GoogleHomePageTest@17f6480]" name="verifyGooglePageTittle" duration-ms="1125" started-at="2019-08-06T07:30:29Z" finished-at="2019-08-06T07:30:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGooglePageTittle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.tests.GoogleHomePageTest@17f6480]" name="tearDown" is-config="true" duration-ms="2390" started-at="2019-08-06T07:30:30Z" finished-at="2019-08-06T07:30:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.google.tests.GoogleHomePageTest -->
+    </test> <!-- Simple Test -->
+  </suite> <!-- Example test run -->
 </testng-results>
