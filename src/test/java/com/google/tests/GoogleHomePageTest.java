@@ -32,7 +32,7 @@ public class GoogleHomePageTest {
 		System.out.println("----------------------TEST CASE TO PRINT THE PAGE TITLE-------------------------");
 		System.out.println(getTitle);
 		System.out.println("---------------------- TEST CASE EXECUTION COMPLETED -------------------------");
-		Assert.assertEquals(getTitle, "Skills Development");
+		Assert.assertEquals(getTitle, "Google");
 	}
 	
 	@AfterClass
