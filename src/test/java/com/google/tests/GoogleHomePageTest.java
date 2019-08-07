@@ -29,8 +29,10 @@ public class GoogleHomePageTest {
 		System.out.println("Verifying the Page Title");
 		driver.navigate().to(appURL);
 		String getTitle = driver.getTitle();
+		System.out.println("----------------------TEST CASE TO PRINT THE PAGE TITLE-------------------------");
 		System.out.println(getTitle);
-		//Assert.assertEquals(getTitle, "Google");
+		System.out.println("---------------------- TEST CASE EXECUTION COMPLETED -------------------------");
+		Assert.assertEquals(getTitle, "Skills Development");
 	}
 	
 	@AfterClass
