@@ -22,7 +22,7 @@ public class GoogleHomePageTest {
 		//FirefoxOptions options = new FirefoxOptions();
 		//options.setBinary("C:\\Program Files\\Mozilla Firefox\\firefox.exe");
 		//driver = new FirefoxDriver();
-		String chromeDriverPath = "/home/selenium/tools/chromedriver/chromedriver.exe" ;
+		String chromeDriverPath = "/home/selenium/tools/chromedriver/chromedriver" ;
 	    System.setProperty("webdriver.chrome.driver", chromeDriverPath);
 	    ChromeOptions options = new ChromeOptions();
 	    options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200","--ignore-certificate-errors", "--silent");
